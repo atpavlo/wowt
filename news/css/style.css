@@ -39,6 +39,8 @@ article {
 	max-height: 130px;
 	border-radius: 4px;
 	float: left;
+	margin-left: 40px;
+	margin-bottom: 40px;
 }
 
 article .image-holder {
@@ -48,6 +50,7 @@ article .image-holder {
 article .content-holder {
 	width: 62.78%;
 	padding: 15px 15px 15px 20px;
+	position: relative;
 }
 
 article .content-holder h3 {
@@ -65,6 +68,15 @@ a.show-more {
 	display: inline-block;
 	margin-top: 10px;
 	color: #3C8204;
+}
+
+
+article .date {
+	position: absolute;
+	bottom: 25px;
+	right: 10px;
+	font-size: 11px;
+	color: #525252;
 }
 
 
