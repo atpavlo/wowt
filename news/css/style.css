@@ -16,8 +16,9 @@ body {
 }
 
 .news-wrapper {
-	max-width: 800px;
+	max-width: 1200px;
 	margin: 120px auto;
+	display: flex;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -39,12 +40,13 @@ article {
 	max-height: 130px;
 	border-radius: 4px;
 	float: left;
-	margin-left: 40px;
+	margin-left: 10px;
 	margin-bottom: 40px;
 }
 
 article .image-holder {
 	width: 37.22%;
+	position: relative;
 }
 
 article .content-holder {
@@ -65,7 +67,7 @@ article .content-holder p {
 }
 
 a.show-more {
-	display: inline-block;
+	display: block;
 	margin-top: 10px;
 	color: #3C8204;
 }
@@ -90,3 +92,26 @@ article div {
 	display: table;
 	clear: both;
 }
+
+
+.number-holder {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	position: absolute;
+}
+
+.number {
+	    color: white;
+    font-size: 24px;
+    min-width: 50px;
+    min-height: 50px;    
+    border-radius: 50%;
+    text-align: center;
+    line-height: 2;
+    background: rgba(0, 0, 0, 0.5);
+
+}
+
